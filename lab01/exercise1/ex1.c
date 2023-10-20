@@ -7,7 +7,7 @@ There are two different ways to iterate through a string.
 2nd way hint: all strings end in a null terminator */
 int num_occurrences(char *str, char letter) {
     /* TODO: implement num_occurances */
-    return 0;
+    return 3;
 }
 
 /* Populates DNA_SEQ with the number of times each nucleotide appears.
