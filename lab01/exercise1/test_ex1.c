@@ -22,6 +22,7 @@ int main(int argc, char **argv) {
     DNA_sequence dna_seq_1;
     strcpy(dna_seq_1.sequence, "ACTTTGAAC");
     compute_nucleotide_occurrences(&dna_seq_1);
+
     assert(dna_seq_1.A_count == 3);
     assert(dna_seq_1.C_count == 2);
     assert(dna_seq_1.G_count == 1);
